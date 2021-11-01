@@ -662,7 +662,6 @@ time {
       font-size: 1.5rem;
     }
   }
-  
 }
 .sponsor-heading {
   font-size: 40px;
@@ -679,7 +678,7 @@ time {
 }
 
 .line {
-  height: 4px;
+  height: 2px;
   background-color: #c4c4c4;
   width: 375px;
   margin-right: 10px;
@@ -691,7 +690,6 @@ time {
     width: 2em;
   }
 }
-
 
 .sponsors-section {
   padding: 40px 0;
@@ -709,6 +707,27 @@ time {
     margin-bottom: 20px;
     // text-decoration: underline;
     font-weight: 300;
+  }
+}
+
+.main_powered_container {
+  display: flex;
+  justify-content: center;
+
+  .space {
+    min-width: 30px;
+    width: 7%;
+  }
+}
+
+#athenaImg {
+  width: 310px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 812px) {
+  .main_powered_container {
+    flex-direction: column;
   }
 }
 
@@ -833,7 +852,6 @@ time {
     font-size: 2rem;
   }
 }
-
 
 .go-corner {
   display: flex;
